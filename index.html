@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>homework</title>
+    <style>
+        .murad {
+            background: url('murad.png') center / cover;
+
+        }
+
+        .murad:hover {
+            background: url('murad2.png') center / cover;
+        }
+
+        .ali {
+            background: url('ali.png') center / cover;
+        }
+
+        .ali:hover {
+            background: url('ali2.png') center / cover;
+        }
+
+        .gunes {
+            background: url('gunes.png') center / cover;
+        }
+
+        .gunes:hover {
+            background: url('gunes2.png') center / cover;
+        }
+
+        .img {
+            height: 400px;
+            width: 400px;
+            border-radius: 100%;
+            margin-left: 10px;
+            border: solid 3px black;
+
+        }
+
+        .kevin {
+            background: url('kevin.png') center / cover;
+        }
+
+        .kevin:hover {
+            background: url('kevin2.png') center / cover;
+        }
+
+        .leman {
+            background: url('leman.png') center / cover;
+        }
+
+        .leman:hover {
+            background: url('leman2.png') center / cover;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .img:hover{
+            transition: .9s;
+            transform: rotateX(360deg);
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="img murad"></div>
+        <div class="img ali"></div>
+        <div class="img gunes"></div>
+        <div class="img kevin"></div>
+        <div class="img leman"></div>
+    </div>
+
 </body>
+
 </html>
